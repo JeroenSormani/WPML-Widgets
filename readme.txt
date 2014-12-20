@@ -31,6 +31,12 @@ WPML Widgets is a ultra lightweight plugin, so there will be (about) zero extra 
 
 == Changelog ==
 
+= 1.0.3 - 20/12/2014 =
+* Fix - Notice on WP_Debug mode when values are not saved
+* Add - Nagg message when WPML is not active ;-)
+* Improvement - Use Singleton to initiate plugin
+* Improvement - Better code/comment quality
+
 = 1.0.2 =
 * Fix - WordPress Multisite supported check
 
