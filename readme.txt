@@ -3,7 +3,7 @@ Contributors: sormano
 Tags: WPML, WPML widget, WordPress Multilanguage, WordPress Multilanguage widget, WPML widget selector
 Requires at least: 3.6
 Tested up to: 4.7
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,6 +29,9 @@ WPML Widgets is a ultra lightweight plugin, so there will be (about) zero extra 
 
 
 == Changelog ==
+
+= 1.0.6 - 04/01/2016 =
+* Fix - Issue introduced in 1.0.5 where with some people the 'wpml_get_active_languages()' function doesn't exist.
 
 = 1.0.5 - 02/01/2016 =
 * Change - Removed the unneeded prefixes of the class methods.

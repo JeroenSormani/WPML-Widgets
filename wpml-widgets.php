@@ -3,7 +3,7 @@
  * Plugin Name: 	WPML Widgets
  * Plugin URI: 		http://jeroensormani.com
  * Description: 	Easily select which widgets you want to show for which languages
- * Version: 		1.0.5
+ * Version: 		1.0.6
  * Author: 			Jeroen Sormani
  * Author URI: 		http://jeroensormani.com
  * Text domain:     wpml-widgets
