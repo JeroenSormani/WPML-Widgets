@@ -119,7 +119,7 @@ class WPML_Widgets {
 	 */
 	public function widget_dropdown( $widget, $form, $instance ) {
 
-		$languages = wpml_get_active_languages();
+		$languages = apply_filters( 'wpml_active_languages', array() );
 
 		?><p>
 			<label for='wpml_language'><?php _e( 'Display on language:', 'wpml-widgets' ); ?> </label>
