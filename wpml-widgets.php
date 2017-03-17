@@ -68,8 +68,10 @@ class WPML_Widgets {
 
 		if ( ! in_array( 'sitepress-multilingual-cms/sitepress.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) :
 			if ( ! is_plugin_active_for_network( 'sitepress-multilingual-cms/sitepress.php' ) ) :
-				add_action( 'admin_notices', array( $this, 'wpml_nag_message' ) );
-				return;
+				if ( ! function_exists( 'icl_object_id' ) ) :
+					add_action( 'admin_notices', array( $this, 'wpml_nag_message' ) );
+					return;
+				endif;
 			endif;
 		endif;
 
