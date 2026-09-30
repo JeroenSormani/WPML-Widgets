@@ -159,7 +159,7 @@ class WPML_Widgets {
 	 */
 	public function widget_update( $instance, $new_instance, $old_instance, $this2 ) {
 
-		$instance['wpml_language'] = $_POST['wpml_language'];
+		$instance['wpml_language'] = isset( $_POST['wpml_language'] ) ? $_POST['wpml_language'] : '';
 
 		return $instance;
 
